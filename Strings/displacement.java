@@ -1,11 +1,13 @@
 package Strings;
 
 public class displacement {
+
+    // method for get displacement or shortest path
     public static float getShortestPath(String path){
         int x=0;
         int y=0;
         for(int i=0; i<path.length(); i++){
-            char direction = path.charAt(i);
+            char direction = path.charAt(i);    //checking each element
             if(direction == 'E'){
                 x++;
             }
