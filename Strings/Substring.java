@@ -1,7 +1,7 @@
 package Strings;
 
 public class Substring {
-    public static String subString(String str, int si, int ei){
+    public static String subString(String str, int si, int ei){     //si for starting index & ei for ending index
         String substr = "";
         for(int i=si; i<ei; i++){
             substr += str.charAt(i);
