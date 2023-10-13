@@ -58,7 +58,7 @@ public class BinaryNumberSystem {
         // Rules
         //     a >> b
         // formulla: 
-        //      a << b = a/(2^b)   [^b is power of 2]
+        //      a >> b = a/(2^b)   [^b is power of 2]
         
         System.out.println("Binary Right Shift: "+ (x >> y));
     }
