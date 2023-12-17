@@ -2,9 +2,9 @@ package Recursion;
 
 public class sorted_array {
 
-    // check idf a array is sorted or not
+    // check if a array is sorted or not
     public static boolean isSorted(int arr[], int i){
-        // base case
+
         if(i == arr.length-1){
             return true;
         }
